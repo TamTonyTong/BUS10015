@@ -409,7 +409,7 @@ export default function Home() {
               </div>
               <div className="relative h-80 md:h-96 rounded-lg overflow-hidden">
                 <Image
-                  src="/Cover Page3.png?height=600&width=800"
+                  src="/Cover Page5.png?height=600&width=800"
                   alt="Our team exploring destinations"
                   fill
                   className="object-cover"
