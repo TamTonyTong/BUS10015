@@ -70,7 +70,7 @@ export default function Home() {
           <div className="container relative z-10 py-24 md:py-32 lg:py-40">
             <div className="max-w-2xl space-y-4 text-white">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-                Discover the World's Hidden Gems
+                Discover Vietnam&apos Hidden Gems
               </h1>
               <p className="text-lg md:text-xl">
                 Unforgettable journeys tailored to your dreams. Experience authentic travel with expert guidance.
@@ -171,7 +171,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold">Cruises</h3>
                 <p className="text-muted-foreground mt-2">
-                  Unforgettable experiences on the world's best cruise lines.
+                  Unforgettable experiences on the world&apos best cruise lines.
                 </p>
               </CardContent>
             </Card>
@@ -235,7 +235,7 @@ export default function Home() {
         <section id="packages" className="container py-16">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold">Special Offers</h2>
-            <p className="text-muted-foreground mt-2">Limited-time deals you don't want to miss</p>
+            <p className="text-muted-foreground mt-2">Limited-time deals you don&apost want to miss</p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <Card className="overflow-hidden">
@@ -336,7 +336,7 @@ export default function Home() {
                         <Star className="h-5 w-5 text-yellow-400 fill-yellow-400" />
                         <Star className="h-5 w-5 text-yellow-400 fill-yellow-400" />
                       </div>
-                      <p className="italic">"{testimonial.quote}"</p>
+                      <p className="italic">&quot{testimonial.quote}&quot</p>
                     </div>
                     <div className="flex items-center gap-4 mt-6 pt-4 border-t">
                       <div className="relative h-12 w-12 rounded-full overflow-hidden">
@@ -392,7 +392,7 @@ export default function Home() {
               <div>
                 <h2 className="text-3xl font-bold mb-4">About Wanderlust</h2>
                 <p className="text-muted-foreground mb-4">
-                  Founded in 2010, Wanderlust has been helping travelers discover the world's most amazing destinations
+                  Founded in 2010, Wanderlust has been helping travelers discover the world&aposs most amazing destinations
                   for over a decade. Our mission is to create unforgettable journeys that connect people with authentic
                   experiences.
                 </p>
