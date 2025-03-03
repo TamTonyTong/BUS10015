@@ -384,7 +384,7 @@ export default function Home() {
             </CardContent>
           </Card>
         </section>
-
+{/* afd */}
         {/* About Us */}
         <section id="about" className="py-16 bg-muted">
           <div className="container">
