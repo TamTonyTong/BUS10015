@@ -60,7 +60,7 @@ export default function Home() {
         <section className="relative">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/placeholder.svg?height=800&width=1920"
+              src="/hero.jpeg?height=800&width=1920"
               alt="Beautiful travel destination"
               fill
               className="object-cover brightness-[0.7]"
@@ -70,7 +70,7 @@ export default function Home() {
           <div className="container relative z-10 py-24 md:py-32 lg:py-40">
             <div className="max-w-2xl space-y-4 text-white">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-                Discover Vietnam&apos Hidden Gems
+                Discover Vietnam&apos;s Hidden Gems
               </h1>
               <p className="text-lg md:text-xl">
                 Unforgettable journeys tailored to your dreams. Experience authentic travel with expert guidance.
@@ -171,14 +171,14 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold">Cruises</h3>
                 <p className="text-muted-foreground mt-2">
-                  Unforgettable experiences on the world&apos best cruise lines.
+                  Unforgettable experiences on the world&apos; best cruise lines.
                 </p>
               </CardContent>
             </Card>
           </div>
         </section>
 
-        {/* Featured Destinations */}
+        {/* Featured Destinations
         <section id="destinations" className="py-16 bg-muted">
           <div className="container">
             <div className="text-center mb-12">
@@ -229,20 +229,21 @@ export default function Home() {
               <Button size="lg">View All Destinations</Button>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Special Offers */}
         <section id="packages" className="container py-16">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold">Special Offers</h2>
-            <p className="text-muted-foreground mt-2">Limited-time deals you don&apost want to miss</p>
+            <p className="text-muted-foreground mt-2">Limited-time deals you don&apos;t want to miss</p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-8"> */}
+          <div className="flex justify-center">
             <Card className="overflow-hidden">
-              <div className="relative h-64 md:h-80">
+              <div className="relative h-100 md:h-150">
                 <Image
-                  src="/placeholder.svg?height=500&width=800"
-                  alt="Maldives special offer"
+                  src="/2.jpeg?height=1000&width=800"
+                  alt=""
                   fill
                   className="object-cover"
                 />
@@ -251,21 +252,21 @@ export default function Home() {
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-2xl font-bold">Maldives Luxury Escape</h3>
-                <p className="text-muted-foreground mt-2">
-                  7 days of paradise in an overwater bungalow with all-inclusive meals and activities.
+                <h3 className="text-2xl font-bold">Vietnam Rounded Trip</h3>
+                <p className="text-muted-foreground mt-2 break-words">
+                Embark on an unforgettable 14-day adventure from Ho Chi Minh City to Hanoi,<br></br> traveling by motorbike, train, and local transport to experience Vietnam&apos;s rich cultural tapestry
                 </p>
                 <div className="flex items-center justify-between mt-4">
                   <div>
-                    <span className="text-lg line-through text-muted-foreground">$3,499</span>
-                    <span className="text-2xl font-bold ml-2">$2,449</span>
+                    <span className="text-lg line-through text-muted-foreground">$3,999</span>
+                    <span className="text-2xl font-bold ml-2">$3,199</span>
                     <span className="text-sm text-muted-foreground"> / per person</span>
                   </div>
                   <Button>Book Now</Button>
                 </div>
               </CardContent>
             </Card>
-            <Card className="overflow-hidden">
+            {/* <Card className="overflow-hidden">
               <div className="relative h-64 md:h-80">
                 <Image
                   src="/placeholder.svg?height=500&width=800"
@@ -291,7 +292,7 @@ export default function Home() {
                   <Button>Book Now</Button>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </section>
 
@@ -308,22 +309,22 @@ export default function Home() {
                   name: "Sarah Johnson",
                   location: "New York, USA",
                   quote:
-                    "The trip to Japan was flawlessly organized. Every detail was taken care of, and the local guides were exceptional. Will definitely book with Wanderlust again!",
-                  avatar: "/placeholder.svg?height=100&width=100",
+                    "The trip was flawlessly organized. Every detail was taken care of, and the local guides were exceptional. Will definitely book with Wanderlust again!",
+                  avatar: "/3.jpeg?height=100&width=100",
                 },
                 {
                   name: "Michael Chen",
                   location: "Toronto, Canada",
                   quote:
-                    "Our family safari in Tanzania exceeded all expectations. The accommodations were luxurious yet authentic, and we saw all the Big Five! A dream come true.",
-                  avatar: "/placeholder.svg?height=100&width=100",
+                    "Our family journey in Da Nang exceeded all expectations. The accommodations were luxurious yet authentic, and we saw all the Big Five! A dream come true.",
+                  avatar: "/5.jpeg?height=100&width=100",
                 },
                 {
                   name: "Emma Rodriguez",
                   location: "London, UK",
                   quote:
-                    "The Greek island hopping package was perfect. The private transfers made everything stress-free, and the selected hotels had the most amazing views.",
-                  avatar: "/placeholder.svg?height=100&width=100",
+                    "The Ha Giang trip was perfect. The private transfers made everything stress-free, and the selected hotels had the most amazing views.",
+                  avatar: "/4.jpeg?height=100&width=100",
                 },
               ].map((testimonial, index) => (
                 <Card key={index} className="h-full">
@@ -336,7 +337,7 @@ export default function Home() {
                         <Star className="h-5 w-5 text-yellow-400 fill-yellow-400" />
                         <Star className="h-5 w-5 text-yellow-400 fill-yellow-400" />
                       </div>
-                      <p className="italic">&quot{testimonial.quote}&quot</p>
+                      <p className="italic">&quot;{testimonial.quote}&quot;</p>
                     </div>
                     <div className="flex items-center gap-4 mt-6 pt-4 border-t">
                       <div className="relative h-12 w-12 rounded-full overflow-hidden">
@@ -392,7 +393,7 @@ export default function Home() {
               <div>
                 <h2 className="text-3xl font-bold mb-4">About Wanderlust</h2>
                 <p className="text-muted-foreground mb-4">
-                  Founded in 2010, Wanderlust has been helping travelers discover the world&aposs most amazing destinations
+                  Founded in 2010, Wanderlust has been helping travelers discover the world&apos;s most amazing destinations
                   for over a decade. Our mission is to create unforgettable journeys that connect people with authentic
                   experiences.
                 </p>
@@ -408,7 +409,7 @@ export default function Home() {
               </div>
               <div className="relative h-80 md:h-96 rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/Cover Page.png?height=600&width=800"
                   alt="Our team exploring destinations"
                   fill
                   className="object-cover"
